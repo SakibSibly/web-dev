@@ -1,51 +1,42 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 .root{
-    display:flex;
-    /* align-items: center;
-    justify-content: center; */
-}
-
-
-.login_meta_data{
-    border: 1px solid red;
-    background: blue;
-    height: 100vh;
-    width: 65%;
-
-
-    
-}
-
-.login_form{
-    background: red;
-    height: 100vh;
-    width: 35%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
 
 }
 
-.pass{
-    display:flex;
-    /* border: 1px solid green; */
+.container1{
+    width: 50%;
+    height: 100vh;
+    background: blue;
 }
 
-/* .login_form form{
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
-    position: relative;
-    top:50%;
-    left:10%;
-} */
+    justify-content: center;
+    border: 1px solid green;
+}
 
-.login_form input,.l{
-    width: 100%;
+#pass{
+    display: inline;
+}
+
+#login{
+    display: block;
+}
+
+button{
+    border: 2px solid blue;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    width: 50%;
 }

@@ -70,11 +70,10 @@
 
 #login_button {
     border-radius: 5px;
-    height: 4vh;
     font-family:'Times New Roman', Times, serif;
     font-size: medium;
-
 }
+
 #login_button:hover {
     cursor: pointer;
     /* background-color: rgb(19, 112, 158); */

@@ -19,9 +19,11 @@
                 <input type="email" id="email" required placeholder="e.g. email@email.com">
                 <label for="password">Password</label>
                 <input type="password" id="password" required>
-                <label for="confirm_password">Confirm Password</label>
-                <input type="password" id="confirm_password" required>
-                <button id="create_button" type="submit">Create account</button>
+                <div id="conjested">
+                    <input type="checkbox" name="Show password" value="Show password" onclick="showPassword()">
+                    <label>Show password</label>
+                </div>
+                <button id="create_button" type="submit" onclick="passwordMatch()">Create account</button>
             </form>
             <form action="index.html" class="redirect" method="get">
                 <button id="cancel_button" type="submit" style="width: 100%;">Cancel</button>
@@ -29,4 +31,5 @@
         </div>
     </div>
 </body>
+<script src="js/index.js"></script>
 </html>

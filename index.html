@@ -12,7 +12,8 @@
         <div class="meta_data">
             <div>
                 <h3 id="creator_info">
-                    Name: Nazmus Sakib Sibly <br>
+                    Created by <br><br><br>
+                    Nazmus Sakib Sibly <br>
                     ID: 200104 <br>
                     Department of computer Science and Engineering <br>
                     Jashore University of Science and Technology
@@ -25,11 +26,11 @@
             <div class="main_form">
                 <form action="dashboard.html" class="form_action" method="get">
                     <label>Email</label>
-                    <input id="email" type="text" placeholder="e.g. email@email.com" required>
+                    <input id="email" type="email" placeholder="e.g. email@email.com" required>
                     <label>Password</label>
                     <input id="password" type="password" required placeholder="Enter your password">
                     <div id="conjested">
-                        <input type="checkbox" name="Show password" value="Show password">
+                        <input type="checkbox" name="Show password" value="Show password" onclick="showPassword()">
                         <label>Show password</label>
                     </div>
                     <button type="submit" id="login_button">Login</button>
@@ -48,4 +49,5 @@
         </div>
     </div>
 </body>
+<script src="js/index.js"></script>
 </html>

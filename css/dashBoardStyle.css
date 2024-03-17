@@ -4,21 +4,16 @@
 }
 
 .root {
-    border:1px solid red;
-    /* padding: 23%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .profile_data {
-    border: 1px solid red;
     margin-bottom: 20%;
 }
 
 #logout {
-    /* margin-top: 10%; */
     margin-bottom: 50%;
-    width: 100%;
+    width: 100px;
 }

@@ -8,25 +8,23 @@
 }
 
 .meta_data {
-    /* display: flex; */
-    /* border: 1px solid red; */
+    display: flex;
     width: 60%;
-    /* height: 100dvh; */
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(140deg, rgb(0, 120, 129), rgb(1, 105, 112), rgb(0, 54, 58));
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 
-#info {
-    height: 100vh;
-    border: 1px solid red;
-    font-size: large;
+#creator_info {
+    color: white;
+    font-size: 25px;
+    width: 40vw;
+    padding: 5%;
     text-align: center;
 }
 
 .account_action {
-    border: 1px solid green;
     width: 40%;
     height: 100dvh;
     align-items: center;
@@ -72,6 +70,10 @@
 
 #login_button {
     border-radius: 5px;
+    height: 4vh;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+
 }
 #login_button:hover {
     cursor: pointer;

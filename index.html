@@ -3,38 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Login page</title>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/indexStyle.css">
 </head>
 <body>
     <div class="root">
-
-        <div class="container1">
-
+        <!-- This section is for showing meta data -->
+        <div class="meta_data">
+            <div id="info">
+                <p>Name: Nazmus Sakib Sibly</p>
+                <p>ID: 200104</p>
+                <p>Department of computer Science and Engineering</p>
+                <p>Jashore University of Science and Technology</p>
+            </div>
         </div>
-
-        <div class="container2">
-            <form action="dashboard.html" method="get">
-
-                
+        
+        <!-- This is the account action stuff -->
+        <div class="account_action">
+            <div class="main_form">
+                <form action="dashboard.html" class="form_action" method="get">
                     <label>Email</label>
+                    <input id="email" type="text" placeholder="e.g. email@email.com" required>
+                    <label>Password</label>
+                    <input id="password" type="password" required placeholder="Enter your password">
+                    <div id="conjested">
+                        <input type="checkbox" name="Show password" value="Show password">
+                        <label>Show password</label>
+                    </div>
+                    <button type="submit" id="login_button">Login</button>
+                    <div id="login_line"><hr></div>
+                </form>
                 <div>
-                    <input type="text" name="" id="">
-                </div>
+                    <form action="create_account.html">
 
-                
-                <label for="">Password</label>
-                <div id = "pass">
-                <input type="password" name="" id="pass"><button type="button" id="show">show</button>
-                </div>
+                        <p id="create_account_text">Don't have an account? <button id="create_button">Create account</button></p>
+                        
+                    </form>                    
+                    </div>
 
-                <button id="login" type="submit">Log in</button>
-
-            </form>
-
+                <!-- <div class="login_button"></div> -->
+            </div>
         </div>
-
-                
     </div>
 </body>
 </html>

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.account_action {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    margin-bottom: 10%;
+}
+
+#email {
+    margin-bottom: 10%;
+}
+
+#password {
+    margin-bottom: 10%;
+}
+#confirm_password {
+    margin-bottom: 10%;
+}
+
+#name {
+    margin-bottom: 10%;
+}
+
+#create_button {
+    margin-bottom: 10%;
+}
